@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    color: #fff;
+}
+
+.header-class {
+    width: 100vw;
+    background-color: rgb(86, 80, 242);
+    padding: 5px;
+}
+
+.main-heading {
+    text-decoration: underline;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-button {
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    background-color: rgb(140, 15, 193);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.form-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #2d2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.form-nodes {
+    padding: 5px;
+}
+
+.input-nodes {
+    padding: 1px;
+}
+
+.cal-button {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.bmi-guide {
+    padding-top: 20px;
+}
+
+.bmi-nodes {
+    margin: 5px;
+    color: #a9a9a9;
+}
+
+.resultValue {
+    margin-top: 30px;
+    text-align: center;
+}
